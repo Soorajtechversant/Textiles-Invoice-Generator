@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>buyer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+   .hello{
+   font-size: 100px;
+   align:center;
+   font-weight:100;
+   margin-left:350px;
+   }
+   .hello-p{
+   margin-left:300px;
+   font-size:50px;
+   }
+   .sign{
+   margin-left:10px;
+   }
+   .login{
+   margin-right:10px;
+   }
+
+
+    </style>
+</head>
+<body>
+{% include "navbar3.html" %}
+<div class="container">
+    <div class="row">
+        <h2 class="hello">Hello,Buyer</h2>
+
+        <p class="hello-p">
+            Welcome to New Textiles
+        </p>
+
+
+    </div>
+</div>
+<div class="container" align="center">
+    <div class="row">
+        <!--        <div class="col-4 sign">-->
+        <!--                    <P>SignIn to continue-->
+        <!--        <br>-->
+        <!--            <button>SignIn</button>-->
+        <P>
+    </div>
+    <div class="col-3"></div>
+    <div class="col-3 login">
+
+        <br>
+        <a class="btn btn-primary btn-lg" href="/buyersignup" role="button">SignUp</a>
+        <a class="btn btn-primary btn-lg" href="/buyerlogin" role="button">Login</a>
+        <p>Already a user? Please Login!
+
+        </p>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
+{% include "footer.html" %}
